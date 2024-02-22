@@ -3,9 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { FaHeart } from "react-icons/fa";
-import { FaHeartBroken } from "react-icons/fa";
-import { FaPersonMilitaryRifle } from "react-icons/fa6";
+import { FaHeart, FaHeartBroken, FaPersonMilitaryRifle } from "react-icons/fa";
+import { BsFillLightningFill } from "react-icons/bs";
+
 
 function Army() {
     const [armys , setArmy]= useState([])
